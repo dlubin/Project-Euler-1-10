@@ -279,23 +279,22 @@ class Solution {
 	  return sum;
   }
   
-  //To view the solution, uncomment the corresponding method call.
+  //To view the solution and run time in milliseconds, uncomment the corresponding method call.
   
   public static void main(String[] args) {
-	  long startTime = System.nanoTime();
+    long startTime = System.nanoTime();
     //System.out.println(threesAndFives(1000));
     //System.out.println(evenFibSum(4000000));
     //System.out.println(largestPrimeFactor(600851475143L));
     //System.out.println(largestPalindrome());
     //System.out.println(smallestMultiple(new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}));
     //System.out.println(sumSquareDiff());
-	  //System.out.println(nthPrime(10001));
-	  //System.out.println(adjacentNums());
-	  //System.out.println(pythagorean());
-	  //System.out.println(sumOfPrimes());
-	  
-	  long endTime = System.nanoTime();
-	  System.out.println("Took "+(endTime - startTime)/1000000 + " ms"); 
+    //System.out.println(nthPrime(10001));
+    //System.out.println(adjacentNums());
+    //System.out.println(pythagorean());
+    //System.out.println(sumOfPrimes());
+    long endTime = System.nanoTime();
+    System.out.println("Took "+(endTime - startTime)/1000000 + " ms"); 
   }
   
 }
